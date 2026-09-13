@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    // env
+    "target": "esnext",
+    "module": "esnext",
+    "moduleDetection": "force",
+    "checkJs": true,
+    "types": ["bun"],
+
+    // bundler
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "verbatimModuleSyntax": true,
+    "noEmit": true,
+
+    // checks
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "noPropertyAccessFromIndexSignature": true
+  }
+}

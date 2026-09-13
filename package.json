@@ -1,0 +1,21 @@
+{
+  "name": "linker",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "tmux-cmds 'vite client' 'bun --watch run server'",
+    "build": "vite build client"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/bun": "latest",
+    "daisyui": "^5.7.40",
+    "tailwindcss": "^4.3.3",
+    "vite": "^7.3.6"
+  },
+  "dependencies": {
+    "psytask": "^1.4.0",
+    "ts-fsrs": "^5.4.2",
+    "vanjs-core": "^1.6.1"
+  }
+}
